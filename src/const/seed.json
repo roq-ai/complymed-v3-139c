@@ -1,0 +1,2172 @@
+[
+  {
+    "performance_evaluation": [
+      {
+        "id": "e958946c-d551-4d0f-bfbd-78e035109c64",
+        "name": "Quarterly Review",
+        "score": 92566,
+        "created_at": "2023-08-27T17:46:29.007Z",
+        "updated_at": "2023-08-28T15:00:42.752Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d2e1d78-ebee-4c9a-bc79-efe22f882100",
+        "name": "Annual Appraisal",
+        "score": 99516,
+        "created_at": "2023-08-27T19:23:54.309Z",
+        "updated_at": "2023-08-27T20:00:56.332Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbe14c18-7fb9-4fe3-9b2b-e1225f63d096",
+        "name": "Mid-Year Assessment",
+        "score": 77078,
+        "created_at": "2023-08-28T06:59:44.553Z",
+        "updated_at": "2023-08-27T23:25:02.114Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b508879-1399-44bc-b616-e76ec193713b",
+        "name": "Project Evaluation",
+        "score": 78989,
+        "created_at": "2023-08-27T23:14:56.392Z",
+        "updated_at": "2023-08-28T15:27:42.013Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ba761c1-685b-4174-82db-27fa40a08356",
+        "name": "Performance Audit",
+        "score": 85316,
+        "created_at": "2023-08-27T20:39:05.900Z",
+        "updated_at": "2023-08-28T06:48:15.843Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "876edd8f-1b40-48af-af93-a2bcd81b066d",
+        "name": "SuperMart",
+        "location": "New York",
+        "created_at": "2023-08-28T04:38:33.391Z",
+        "updated_at": "2023-08-28T11:27:25.282Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7cd6d391-9e23-4e90-8915-bfe8f70fce45",
+        "name": "Fashion Trends",
+        "location": "London",
+        "created_at": "2023-08-28T14:47:30.288Z",
+        "updated_at": "2023-08-28T04:38:53.553Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6c943362-6bd8-473e-aebd-4bc00d14770c",
+        "name": "Food Delight",
+        "location": "Tokyo",
+        "created_at": "2023-08-28T14:18:43.555Z",
+        "updated_at": "2023-08-28T07:41:00.445Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "57b19f28-fce1-4a8d-8647-ba06efdffb64",
+        "name": "Sports World",
+        "location": "Sydney",
+        "created_at": "2023-08-27T22:04:10.778Z",
+        "updated_at": "2023-08-27T23:10:40.340Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "51abac83-9b5c-4130-acc3-d0d478d4ebbd",
+        "name": "Home Essentials",
+        "location": "Paris",
+        "created_at": "2023-08-28T10:06:29.459Z",
+        "updated_at": "2023-08-28T00:09:17.200Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "5c4e6170-8343-4a90-9aa3-4cbb51f205a7",
+        "name": "Project X",
+        "description": "Manage project deliverables",
+        "status": "In Progress",
+        "created_at": "2023-08-28T13:12:03.486Z",
+        "updated_at": "2023-08-28T06:45:02.686Z",
+        "franchise_id": "57b19f28-fce1-4a8d-8647-ba06efdffb64"
+      },
+      {
+        "id": "b523ca58-98f1-4d1c-9c64-8f477f70820e",
+        "name": "Task Management",
+        "description": "Coordinate team activities",
+        "status": "Completed",
+        "created_at": "2023-08-28T13:07:46.519Z",
+        "updated_at": "2023-08-28T11:51:47.883Z",
+        "franchise_id": "6c943362-6bd8-473e-aebd-4bc00d14770c"
+      },
+      {
+        "id": "e7a89af0-fcb6-4c35-8ec3-477c843df2fe",
+        "name": "Marketing Campaign",
+        "description": "Execute marketing strategies",
+        "status": "On Hold",
+        "created_at": "2023-08-28T15:07:37.308Z",
+        "updated_at": "2023-08-28T07:43:00.987Z",
+        "franchise_id": "51abac83-9b5c-4130-acc3-d0d478d4ebbd"
+      },
+      {
+        "id": "b8a3ace5-08f0-4b55-bcc1-d54f643b4637",
+        "name": "Product Launch",
+        "description": "Plan and execute product launch",
+        "status": "Pending",
+        "created_at": "2023-08-27T23:06:16.334Z",
+        "updated_at": "2023-08-28T12:37:06.214Z",
+        "franchise_id": "876edd8f-1b40-48af-af93-a2bcd81b066d"
+      },
+      {
+        "id": "39ccb4a3-ef8e-4db6-8dea-dcc5d95f937a",
+        "name": "Website Redesign",
+        "description": "Redesign website layout",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T12:58:37.478Z",
+        "updated_at": "2023-08-28T06:49:56.601Z",
+        "franchise_id": "57b19f28-fce1-4a8d-8647-ba06efdffb64"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "80afcaf2-4b8e-4e3b-8d80-226ce4fbc5da",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T16:01:01.639Z",
+        "updated_at": "2023-08-28T00:00:57.845Z",
+        "franchise_id": "6c943362-6bd8-473e-aebd-4bc00d14770c"
+      },
+      {
+        "id": "1e553b90-a417-4512-b211-df1950e7b65c",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T06:03:28.101Z",
+        "updated_at": "2023-08-28T13:26:56.147Z",
+        "franchise_id": "57b19f28-fce1-4a8d-8647-ba06efdffb64"
+      },
+      {
+        "id": "c0436f16-fd48-42e3-b3a7-64a6001f8d84",
+        "name": "Financial Dashboard",
+        "created_at": "2023-08-28T02:47:26.269Z",
+        "updated_at": "2023-08-28T16:34:06.912Z",
+        "franchise_id": "57b19f28-fce1-4a8d-8647-ba06efdffb64"
+      },
+      {
+        "id": "c44c1621-8fd6-40ee-9135-a5601bf30c1d",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-28T01:28:17.774Z",
+        "updated_at": "2023-08-27T19:23:16.510Z",
+        "franchise_id": "6c943362-6bd8-473e-aebd-4bc00d14770c"
+      },
+      {
+        "id": "f73351d2-1b52-4676-afdb-68ae87f60c10",
+        "name": "Project Dashboard",
+        "created_at": "2023-08-28T12:23:39.196Z",
+        "updated_at": "2023-08-28T12:55:13.075Z",
+        "franchise_id": "51abac83-9b5c-4130-acc3-d0d478d4ebbd"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0171fc45-1c99-4651-870f-905c36a76ac2",
+        "email": "Fatima61@yahoo.com",
+        "firstName": "Albert",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86148370",
+        "tenantId": null
+      },
+      {
+        "reference": "6749661a-6736-49dc-8e7c-eaf26bd67189",
+        "email": "Chasity_Welch@gmail.com",
+        "firstName": "Myrtis",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/525.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "996710ac-cdc5-4da3-97ff-4d2c83e5b532",
+        "email": "Helene95@gmail.com",
+        "firstName": "Danial",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45644624",
+        "tenantId": null
+      },
+      {
+        "reference": "d8b5cc1e-f9e5-4568-8d50-df1df18d554f",
+        "email": "Kenny87@gmail.com",
+        "firstName": "Angel",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1059.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aff393a3-b1f0-4c5a-8a4d-9279ec457e79",
+        "email": "Mattie.Bergstrom25@gmail.com",
+        "firstName": "Gudrun",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24801169",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "performance_evaluation": [
+      {
+        "id": "46dce3fb-b753-4bc9-ad90-8f09d3726d98",
+        "name": "Quarterly Review",
+        "score": 13017,
+        "created_at": "2023-08-28T03:10:02.244Z",
+        "updated_at": "2023-08-27T21:33:53.132Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9f15b78-7c29-40f8-a660-9fdfea36855f",
+        "name": "Annual Appraisal",
+        "score": 58876,
+        "created_at": "2023-08-27T19:19:23.090Z",
+        "updated_at": "2023-08-27T23:52:27.196Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a45ce8bb-68df-47f3-b41e-007d1fe44089",
+        "name": "Mid-Year Assessment",
+        "score": 93010,
+        "created_at": "2023-08-28T03:09:26.447Z",
+        "updated_at": "2023-08-28T12:15:00.111Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be8ad3cf-8561-4a91-bb13-66d67a60551d",
+        "name": "Project Evaluation",
+        "score": 24843,
+        "created_at": "2023-08-28T14:07:30.379Z",
+        "updated_at": "2023-08-28T03:19:46.508Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05f7f63c-897e-4caf-9bc8-0a2dcdcef8ae",
+        "name": "Performance Audit",
+        "score": 28678,
+        "created_at": "2023-08-28T13:02:17.438Z",
+        "updated_at": "2023-08-28T03:30:53.837Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "68749aea-0487-4c21-813b-0af8c24c7ebb",
+        "name": "Burger Haven",
+        "location": "New York",
+        "created_at": "2023-08-28T15:08:39.432Z",
+        "updated_at": "2023-08-28T16:36:26.881Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3590f23d-5d63-49d1-946f-61c160234c60",
+        "name": "Pizza Palace",
+        "location": "Los Angeles",
+        "created_at": "2023-08-27T19:01:31.500Z",
+        "updated_at": "2023-08-28T06:09:58.817Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9e21e8aa-7e71-49de-90d6-de1471853e58",
+        "name": "Taco Fiesta",
+        "location": "Chicago",
+        "created_at": "2023-08-27T23:39:48.976Z",
+        "updated_at": "2023-08-28T12:57:49.172Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3faa40c6-33d2-4422-a3e9-64faf78598ec",
+        "name": "Sushi Spot",
+        "location": "Miami",
+        "created_at": "2023-08-28T04:20:21.228Z",
+        "updated_at": "2023-08-28T03:35:50.451Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cf912594-f93d-4900-b579-6fe99f70f8be",
+        "name": "BBQ Grill",
+        "location": "San Francisco",
+        "created_at": "2023-08-28T12:48:49.922Z",
+        "updated_at": "2023-08-28T16:05:25.784Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "bb055f4f-6c40-4e99-ad2a-5605ae9a11f4",
+        "name": "Project A",
+        "description": "Complete the report",
+        "status": "Pending",
+        "created_at": "2023-08-27T20:20:34.106Z",
+        "updated_at": "2023-08-28T07:18:40.395Z",
+        "franchise_id": "9e21e8aa-7e71-49de-90d6-de1471853e58"
+      },
+      {
+        "id": "0ddd7af3-8912-4107-ab22-0828817a22fe",
+        "name": "Task 1",
+        "description": "Prepare presentation slides",
+        "status": "In Progress",
+        "created_at": "2023-08-28T04:19:50.742Z",
+        "updated_at": "2023-08-27T20:26:07.300Z",
+        "franchise_id": "9e21e8aa-7e71-49de-90d6-de1471853e58"
+      },
+      {
+        "id": "3eb96017-4598-4a52-81d1-d8af83fd537e",
+        "name": "Assignment X",
+        "description": "Conduct market research",
+        "status": "Completed",
+        "created_at": "2023-08-28T02:55:59.157Z",
+        "updated_at": "2023-08-28T01:24:42.153Z",
+        "franchise_id": "cf912594-f93d-4900-b579-6fe99f70f8be"
+      },
+      {
+        "id": "827fde68-cb68-41cf-94c1-6f8a3b3a2458",
+        "name": "Operation Z",
+        "description": "Develop software application",
+        "status": "On Hold",
+        "created_at": "2023-08-28T07:37:44.384Z",
+        "updated_at": "2023-08-28T06:36:37.603Z",
+        "franchise_id": "68749aea-0487-4c21-813b-0af8c24c7ebb"
+      },
+      {
+        "id": "ddf0a678-48e9-48fe-bf11-67a05fb35901",
+        "name": "Mission 123",
+        "description": "Implement marketing strategy",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T08:25:53.772Z",
+        "updated_at": "2023-08-28T04:40:51.013Z",
+        "franchise_id": "cf912594-f93d-4900-b579-6fe99f70f8be"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "c1456e86-2ccd-4e54-a88a-71e7e6d03462",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T13:01:51.726Z",
+        "updated_at": "2023-08-28T01:48:27.196Z",
+        "franchise_id": "3590f23d-5d63-49d1-946f-61c160234c60"
+      },
+      {
+        "id": "2908497d-d204-47d9-af00-493d84778d8a",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T13:29:26.897Z",
+        "updated_at": "2023-08-28T13:15:12.031Z",
+        "franchise_id": "3590f23d-5d63-49d1-946f-61c160234c60"
+      },
+      {
+        "id": "d9777b2e-f40f-4e41-8c93-abff48179f75",
+        "name": "Finance Dashboard",
+        "created_at": "2023-08-28T00:13:32.839Z",
+        "updated_at": "2023-08-28T03:48:40.290Z",
+        "franchise_id": "3faa40c6-33d2-4422-a3e9-64faf78598ec"
+      },
+      {
+        "id": "7d68154b-a59f-46d0-95a6-f4b5a76c0db7",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-27T22:14:08.883Z",
+        "updated_at": "2023-08-27T19:31:26.009Z",
+        "franchise_id": "3590f23d-5d63-49d1-946f-61c160234c60"
+      },
+      {
+        "id": "877adafe-3165-4db0-bd40-987fc24293b5",
+        "name": "Operations Dashboard",
+        "created_at": "2023-08-28T09:24:10.179Z",
+        "updated_at": "2023-08-28T15:48:45.180Z",
+        "franchise_id": "3590f23d-5d63-49d1-946f-61c160234c60"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "70a5152a-21a6-42b1-8051-2bf4c4c74829",
+        "email": "Elizabeth74@yahoo.com",
+        "firstName": "Cristian",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/816.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ac13939e-294c-4c71-b5a4-6a93308c6be2",
+        "email": "Cortez.Maggio@hotmail.com",
+        "firstName": "Arden",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/612.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "714e4645-4c51-43f8-ba56-b8ded6d0f609",
+        "email": "Reanna_Kuhlman68@gmail.com",
+        "firstName": "Deangelo",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50458313",
+        "tenantId": null
+      },
+      {
+        "reference": "d60cc50a-b766-44c3-8be4-54db022d6db7",
+        "email": "Joana_Cormier49@yahoo.com",
+        "firstName": "Josh",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1200.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "561a4667-c112-4957-aa07-439ff83b6656",
+        "email": "Skylar_Rowe13@gmail.com",
+        "firstName": "Maximo",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61187835",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "performance_evaluation": [
+      {
+        "id": "f7874c36-094d-4236-822f-ea8e05ba6cc6",
+        "name": "Quarterly Review",
+        "score": 89697,
+        "created_at": "2023-08-28T16:45:17.016Z",
+        "updated_at": "2023-08-28T13:19:01.107Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2464b84-f2ed-4bc0-9c94-9f5de875403e",
+        "name": "Annual Assessment",
+        "score": 4900,
+        "created_at": "2023-08-27T22:39:23.274Z",
+        "updated_at": "2023-08-28T10:02:14.518Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04522c5c-9e43-46e4-bb49-0d7a924cf2d1",
+        "name": "Project Evaluation",
+        "score": 60781,
+        "created_at": "2023-08-27T23:41:47.548Z",
+        "updated_at": "2023-08-27T20:09:39.919Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59cbc2f8-0935-4c14-b5ae-829c2b7fec8e",
+        "name": "Performance Appraisal",
+        "score": 52375,
+        "created_at": "2023-08-28T05:22:55.863Z",
+        "updated_at": "2023-08-28T14:03:09.463Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a17f3200-87ed-4061-9268-7baaf333cdba",
+        "name": "Team Feedback",
+        "score": 78795,
+        "created_at": "2023-08-27T20:53:30.439Z",
+        "updated_at": "2023-08-28T08:39:57.680Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "320d17c7-c84a-4ecf-bd81-b61dcc0f7457",
+        "name": "Burger King",
+        "location": "New York",
+        "created_at": "2023-08-28T11:26:18.569Z",
+        "updated_at": "2023-08-28T13:43:02.727Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "eb5e044e-fe87-444b-818b-ae9352ad370a",
+        "name": "McDonald's",
+        "location": "Los Angeles",
+        "created_at": "2023-08-28T12:17:54.896Z",
+        "updated_at": "2023-08-28T08:38:53.009Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fa401d20-831e-40ea-8106-751ea990c448",
+        "name": "Subway",
+        "location": "London",
+        "created_at": "2023-08-28T05:54:00.411Z",
+        "updated_at": "2023-08-28T15:58:07.269Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "726e1ee6-09b4-4304-b99e-ad62368bfd34",
+        "name": "Starbucks",
+        "location": "Tokyo",
+        "created_at": "2023-08-27T21:59:45.290Z",
+        "updated_at": "2023-08-28T06:36:56.181Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "29c98221-a17a-4e67-87f9-73661f9cf41e",
+        "name": "KFC",
+        "location": "Sydney",
+        "created_at": "2023-08-27T23:54:37.316Z",
+        "updated_at": "2023-08-28T12:03:01.430Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "2cf2e2ab-d665-4c1a-bdae-210c9cfb953e",
+        "name": "Create Marketing Campaign",
+        "description": "Plan and execute a marketing campaign to increase brand awareness",
+        "status": "Pending",
+        "created_at": "2023-08-28T12:18:20.745Z",
+        "updated_at": "2023-08-28T12:21:51.069Z",
+        "franchise_id": "726e1ee6-09b4-4304-b99e-ad62368bfd34"
+      },
+      {
+        "id": "bf6a35b2-9035-4aa2-bf01-00255f7b1d9a",
+        "name": "Develop New Feature",
+        "description": "Design and implement a new feature for the product",
+        "status": "In Progress",
+        "created_at": "2023-08-27T23:32:55.332Z",
+        "updated_at": "2023-08-28T12:04:09.691Z",
+        "franchise_id": "fa401d20-831e-40ea-8106-751ea990c448"
+      },
+      {
+        "id": "ef493603-69ac-4bd5-8966-5dc39676b43a",
+        "name": "Organize Team Building Event",
+        "description": "Coordinate and organize a team building event for employees",
+        "status": "Completed",
+        "created_at": "2023-08-28T12:24:38.166Z",
+        "updated_at": "2023-08-28T14:52:48.564Z",
+        "franchise_id": "fa401d20-831e-40ea-8106-751ea990c448"
+      },
+      {
+        "id": "52fece29-a617-4d09-bc71-4d4838d3207c",
+        "name": "Implement Sales Strategy",
+        "description": "Implement a sales strategy to boost revenue",
+        "status": "On Hold",
+        "created_at": "2023-08-27T23:48:26.732Z",
+        "updated_at": "2023-08-28T03:09:50.842Z",
+        "franchise_id": "29c98221-a17a-4e67-87f9-73661f9cf41e"
+      },
+      {
+        "id": "316cea8f-207c-477d-86bb-6e3f5c423132",
+        "name": "Improve Customer Support",
+        "description": "Enhance customer support processes to improve customer satisfaction",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T15:37:30.929Z",
+        "updated_at": "2023-08-27T21:19:00.973Z",
+        "franchise_id": "320d17c7-c84a-4ecf-bd81-b61dcc0f7457"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "24c9f986-7dd3-497d-9bf9-cf0f2c51d9f6",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T16:46:12.383Z",
+        "updated_at": "2023-08-28T15:57:00.300Z",
+        "franchise_id": "29c98221-a17a-4e67-87f9-73661f9cf41e"
+      },
+      {
+        "id": "05bf2c6c-3212-43ff-90c9-5b9785f221f0",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-27T22:49:24.258Z",
+        "updated_at": "2023-08-27T18:22:57.666Z",
+        "franchise_id": "eb5e044e-fe87-444b-818b-ae9352ad370a"
+      },
+      {
+        "id": "a57e8a66-6e28-4e48-ac9c-e60a695170ae",
+        "name": "Finance Dashboard",
+        "created_at": "2023-08-27T19:51:29.436Z",
+        "updated_at": "2023-08-28T09:56:59.677Z",
+        "franchise_id": "726e1ee6-09b4-4304-b99e-ad62368bfd34"
+      },
+      {
+        "id": "262a1890-d168-483b-b9e1-a96fc89c3362",
+        "name": "Operations Dashboard",
+        "created_at": "2023-08-28T14:33:47.699Z",
+        "updated_at": "2023-08-27T22:50:49.578Z",
+        "franchise_id": "726e1ee6-09b4-4304-b99e-ad62368bfd34"
+      },
+      {
+        "id": "21783803-1ef6-420d-b7c4-1754aee071c2",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-28T04:26:29.151Z",
+        "updated_at": "2023-08-27T21:40:23.212Z",
+        "franchise_id": "eb5e044e-fe87-444b-818b-ae9352ad370a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c7ba7861-6096-48d8-a1f9-3677b2c419d1",
+        "email": "Amos.Ratke@gmail.com",
+        "firstName": "Kaela",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/650.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "52a2038b-f23a-4203-b81a-7cf74e3fc05f",
+        "email": "Cicero89@gmail.com",
+        "firstName": "Magnus",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/746.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1352dbf3-263a-4736-883b-fb43ceee1141",
+        "email": "Erik32@hotmail.com",
+        "firstName": "Raymundo",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36434155",
+        "tenantId": null
+      },
+      {
+        "reference": "d4005fd5-52c8-4416-baaa-16c81b96caae",
+        "email": "Rhianna76@gmail.com",
+        "firstName": "Shanna",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/612.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b93eed89-72fb-44a9-aec7-e8039aea8b5b",
+        "email": "Viola4@gmail.com",
+        "firstName": "Juston",
+        "lastName": "Will-Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/950.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "performance_evaluation": [
+      {
+        "id": "b7491e3a-d827-4670-9948-6c306296ff81",
+        "name": "Quarterly Review",
+        "score": 82240,
+        "created_at": "2023-08-28T15:01:26.861Z",
+        "updated_at": "2023-08-28T14:43:53.131Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "796e0400-7dc8-443a-b4c6-5ba8f34c4747",
+        "name": "Annual Appraisal",
+        "score": 5017,
+        "created_at": "2023-08-28T00:04:37.378Z",
+        "updated_at": "2023-08-28T02:36:32.665Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b52a208-3bd7-425d-91f7-1844371e6723",
+        "name": "Mid-Year Assessment",
+        "score": 67656,
+        "created_at": "2023-08-28T10:32:05.903Z",
+        "updated_at": "2023-08-28T01:43:57.619Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31cca63c-b1fc-4478-82ab-9795ea7342e0",
+        "name": "Project Evaluation",
+        "score": 39158,
+        "created_at": "2023-08-27T18:36:13.103Z",
+        "updated_at": "2023-08-28T12:36:14.209Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a003c93b-4769-48c9-93c7-f1e699ddf105",
+        "name": "Team Performance Review",
+        "score": 43767,
+        "created_at": "2023-08-28T04:43:34.900Z",
+        "updated_at": "2023-08-28T13:30:01.019Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "361cdbdd-25de-4b81-b37c-f170a5cf62a6",
+        "name": "ABC Cafe",
+        "location": "New York",
+        "created_at": "2023-08-28T16:40:14.419Z",
+        "updated_at": "2023-08-27T20:07:32.421Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bfe5a60d-d548-460c-9713-a692dc51df98",
+        "name": "XYZ Store",
+        "location": "London",
+        "created_at": "2023-08-28T03:18:26.570Z",
+        "updated_at": "2023-08-28T15:38:08.213Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8580cd5e-23f9-498c-91cd-4965b4dd6e20",
+        "name": "123 Bakery",
+        "location": "Tokyo",
+        "created_at": "2023-08-28T00:24:02.091Z",
+        "updated_at": "2023-08-27T23:42:10.002Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8eadc4d4-5215-4fff-bf0d-47d012158531",
+        "name": "DEF Restaurant",
+        "location": "Sydney",
+        "created_at": "2023-08-27T20:00:44.470Z",
+        "updated_at": "2023-08-28T03:05:52.944Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "43698e28-2597-4bb4-b63d-8cfae7887752",
+        "name": "GHI Boutique",
+        "location": "Paris",
+        "created_at": "2023-08-27T22:34:33.120Z",
+        "updated_at": "2023-08-28T08:55:49.296Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "75a8035a-e7d4-4719-8120-04fbb1fa23ed",
+        "name": "Project Planning",
+        "description": "Develop a comprehensive project plan",
+        "status": "Pending",
+        "created_at": "2023-08-28T03:40:55.682Z",
+        "updated_at": "2023-08-28T01:43:20.384Z",
+        "franchise_id": "8580cd5e-23f9-498c-91cd-4965b4dd6e20"
+      },
+      {
+        "id": "152f9193-02fc-4640-bd03-6437fa39774a",
+        "name": "Data Analysis",
+        "description": "Analyze sales data and generate insights",
+        "status": "In Progress",
+        "created_at": "2023-08-27T23:07:42.271Z",
+        "updated_at": "2023-08-28T07:46:13.568Z",
+        "franchise_id": "bfe5a60d-d548-460c-9713-a692dc51df98"
+      },
+      {
+        "id": "4355a010-a61b-4f90-a32e-5b1eed1f8736",
+        "name": "Content Creation",
+        "description": "Create engaging blog posts",
+        "status": "Completed",
+        "created_at": "2023-08-27T20:00:00.782Z",
+        "updated_at": "2023-08-27T17:54:38.002Z",
+        "franchise_id": "8580cd5e-23f9-498c-91cd-4965b4dd6e20"
+      },
+      {
+        "id": "e9dbefc2-9d57-43cd-baa0-6a329cc6b3de",
+        "name": "Marketing Campaign",
+        "description": "Launch a new marketing campaign",
+        "status": "On Hold",
+        "created_at": "2023-08-27T17:54:23.646Z",
+        "updated_at": "2023-08-28T00:10:19.330Z",
+        "franchise_id": "43698e28-2597-4bb4-b63d-8cfae7887752"
+      },
+      {
+        "id": "a4640e3d-aec2-4848-a271-e3582f65fcd4",
+        "name": "Customer Support",
+        "description": "Provide assistance to customers",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T17:28:19.633Z",
+        "updated_at": "2023-08-28T12:57:32.833Z",
+        "franchise_id": "bfe5a60d-d548-460c-9713-a692dc51df98"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "dfa25203-247b-47ec-9f18-214d1168484e",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T11:33:37.177Z",
+        "updated_at": "2023-08-28T16:06:34.016Z",
+        "franchise_id": "361cdbdd-25de-4b81-b37c-f170a5cf62a6"
+      },
+      {
+        "id": "91d0d2fa-3f78-4dce-9eed-10db2c50b887",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T08:31:08.777Z",
+        "updated_at": "2023-08-28T04:10:12.979Z",
+        "franchise_id": "43698e28-2597-4bb4-b63d-8cfae7887752"
+      },
+      {
+        "id": "6e41eef9-5d6f-4c82-8026-0fc7eb243244",
+        "name": "Financial Dashboard",
+        "created_at": "2023-08-28T07:17:20.910Z",
+        "updated_at": "2023-08-28T06:12:45.706Z",
+        "franchise_id": "8580cd5e-23f9-498c-91cd-4965b4dd6e20"
+      },
+      {
+        "id": "fd723042-ecda-4ec8-bf74-9ee55174d9ca",
+        "name": "Customer Support Dashboard",
+        "created_at": "2023-08-27T19:25:14.182Z",
+        "updated_at": "2023-08-28T07:16:10.468Z",
+        "franchise_id": "8eadc4d4-5215-4fff-bf0d-47d012158531"
+      },
+      {
+        "id": "b548707a-be7d-4ccf-aead-767f7d0d166c",
+        "name": "Project Management Dashboard",
+        "created_at": "2023-08-28T14:49:14.794Z",
+        "updated_at": "2023-08-28T02:44:33.157Z",
+        "franchise_id": "361cdbdd-25de-4b81-b37c-f170a5cf62a6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ed58b9b7-7f90-4cad-8b41-d1884d22cdad",
+        "email": "Kian.Reynolds34@hotmail.com",
+        "firstName": "Everardo",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54179468",
+        "tenantId": null
+      },
+      {
+        "reference": "78b42998-1f27-4803-b75d-22787a889f79",
+        "email": "Andrew81@yahoo.com",
+        "firstName": "Terry",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/221.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fa4b58c0-cb23-4bfb-b012-1b224163171b",
+        "email": "Jamey.Kuhn@yahoo.com",
+        "firstName": "Jimmie",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25209982",
+        "tenantId": null
+      },
+      {
+        "reference": "f910c630-f6d5-4f8c-a8a6-9682794d5fc0",
+        "email": "Brayan_Mraz89@yahoo.com",
+        "firstName": "Genevieve",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/726.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "98d3675f-9284-4eae-883c-087e050676d0",
+        "email": "Jordane23@hotmail.com",
+        "firstName": "Ursula",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48273857",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "performance_evaluation": [
+      {
+        "id": "85331a76-5f68-4ef0-be77-e4c6ed65def0",
+        "name": "Quarterly Review",
+        "score": 2319,
+        "created_at": "2023-08-27T19:23:54.322Z",
+        "updated_at": "2023-08-28T02:51:19.312Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fddf3fa7-6f65-4b35-b02f-a188749a2f21",
+        "name": "Annual Assessment",
+        "score": 6735,
+        "created_at": "2023-08-28T02:00:06.304Z",
+        "updated_at": "2023-08-28T08:58:23.446Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "385ec117-437f-4536-ac08-2b183d2f72a5",
+        "name": "Project Evaluation",
+        "score": 19325,
+        "created_at": "2023-08-27T23:54:21.397Z",
+        "updated_at": "2023-08-27T19:53:27.622Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cd87cd5-22cd-4c3e-b150-334bcb1e8415",
+        "name": "Performance Appraisal",
+        "score": 1253,
+        "created_at": "2023-08-27T18:46:16.140Z",
+        "updated_at": "2023-08-28T05:57:36.821Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62af4b8c-ee83-4220-801b-03db125597fa",
+        "name": "Team Evaluation",
+        "score": 92166,
+        "created_at": "2023-08-28T00:40:21.386Z",
+        "updated_at": "2023-08-27T18:46:42.283Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "ee37ce59-d10a-4eba-8b49-11074c6ee9fd",
+        "name": "SuperMart",
+        "location": "New York",
+        "created_at": "2023-08-27T21:32:01.816Z",
+        "updated_at": "2023-08-28T01:17:05.342Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a9cc3917-1c6e-4e9e-933d-fcf0202ac624",
+        "name": "Gourmet Delights",
+        "location": "London",
+        "created_at": "2023-08-28T03:19:03.750Z",
+        "updated_at": "2023-08-28T03:24:40.608Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "daca8fb2-1d22-4b3b-913e-f54d41e80f4f",
+        "name": "Fashion Frenzy",
+        "location": "Tokyo",
+        "created_at": "2023-08-28T13:49:22.241Z",
+        "updated_at": "2023-08-28T09:01:12.535Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7f3af53e-22f8-4c86-81ed-032b5e0bdf04",
+        "name": "Sports Zone",
+        "location": "Sydney",
+        "created_at": "2023-08-28T14:49:46.211Z",
+        "updated_at": "2023-08-27T23:17:13.433Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a491f903-04df-41cc-9377-7cdfb0c0af6c",
+        "name": "Tech Haven",
+        "location": "Paris",
+        "created_at": "2023-08-27T18:40:27.075Z",
+        "updated_at": "2023-08-27T19:21:18.058Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "6a0a7643-9631-44a2-8fcf-d37f7fac41ed",
+        "name": "Prepare presentation",
+        "description": "Gather data and create slides",
+        "status": "In progress",
+        "created_at": "2023-08-28T01:56:56.468Z",
+        "updated_at": "2023-08-27T20:05:03.190Z",
+        "franchise_id": "7f3af53e-22f8-4c86-81ed-032b5e0bdf04"
+      },
+      {
+        "id": "60865314-15f1-4bfa-ba88-be332cb1e566",
+        "name": "Review documents",
+        "description": "Analyze data and provide feedback",
+        "status": "Pending",
+        "created_at": "2023-08-28T08:25:50.931Z",
+        "updated_at": "2023-08-28T12:24:43.616Z",
+        "franchise_id": "7f3af53e-22f8-4c86-81ed-032b5e0bdf04"
+      },
+      {
+        "id": "a0f03e11-0718-4be8-9f71-d0fb03b699be",
+        "name": "Attend meeting",
+        "description": "Discuss project updates with team",
+        "status": "Completed",
+        "created_at": "2023-08-27T23:48:36.277Z",
+        "updated_at": "2023-08-27T17:54:38.711Z",
+        "franchise_id": "daca8fb2-1d22-4b3b-913e-f54d41e80f4f"
+      },
+      {
+        "id": "4489103e-574e-4c72-bd62-7094c875afee",
+        "name": "Complete research",
+        "description": "Conduct market research",
+        "status": "On hold",
+        "created_at": "2023-08-28T06:41:02.499Z",
+        "updated_at": "2023-08-27T22:51:25.727Z",
+        "franchise_id": "a9cc3917-1c6e-4e9e-933d-fcf0202ac624"
+      },
+      {
+        "id": "427c47b7-c8cf-4206-a6b8-0499a76168d3",
+        "name": "Submit report",
+        "description": "Summarize findings and recommendations",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T03:02:04.949Z",
+        "updated_at": "2023-08-28T02:41:01.200Z",
+        "franchise_id": "a9cc3917-1c6e-4e9e-933d-fcf0202ac624"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "97496726-7d46-471d-92c1-b0dc344560a1",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-27T23:56:06.592Z",
+        "updated_at": "2023-08-28T10:39:01.053Z",
+        "franchise_id": "daca8fb2-1d22-4b3b-913e-f54d41e80f4f"
+      },
+      {
+        "id": "8812d7cc-799d-4092-bd9a-56f78bb330b1",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T11:17:53.607Z",
+        "updated_at": "2023-08-28T15:47:32.742Z",
+        "franchise_id": "ee37ce59-d10a-4eba-8b49-11074c6ee9fd"
+      },
+      {
+        "id": "14cd4f45-1396-466f-800e-06af6022cbe9",
+        "name": "Finance Dashboard",
+        "created_at": "2023-08-27T17:29:34.528Z",
+        "updated_at": "2023-08-28T07:55:38.485Z",
+        "franchise_id": "ee37ce59-d10a-4eba-8b49-11074c6ee9fd"
+      },
+      {
+        "id": "8859a4d4-44af-4b33-9882-93aac73f4710",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-27T19:57:58.524Z",
+        "updated_at": "2023-08-27T17:57:23.754Z",
+        "franchise_id": "daca8fb2-1d22-4b3b-913e-f54d41e80f4f"
+      },
+      {
+        "id": "6d5177fc-b07e-41e2-88b1-3f6c613c51d8",
+        "name": "Operations Dashboard",
+        "created_at": "2023-08-28T03:28:37.570Z",
+        "updated_at": "2023-08-28T13:25:00.738Z",
+        "franchise_id": "a491f903-04df-41cc-9377-7cdfb0c0af6c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9276053e-6ec8-486d-949a-9b317d5f5a6e",
+        "email": "Modesto76@yahoo.com",
+        "firstName": "Tatum",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/736.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "988d3f2f-e79c-4843-a959-67fd77c157f4",
+        "email": "Jake.Schmidt71@gmail.com",
+        "firstName": "Virgil",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/419.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a31711e5-722a-4bde-8eb6-74afa6b740da",
+        "email": "Mina_Lakin57@hotmail.com",
+        "firstName": "Yasmin",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90329902",
+        "tenantId": null
+      },
+      {
+        "reference": "7d5270b2-3edc-4b2f-a11a-0a1ae6bdfd54",
+        "email": "Laurence_Kozey@gmail.com",
+        "firstName": "Rex",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/901.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "331cab33-cd9a-4e9d-8dd5-8dac17e4e9c0",
+        "email": "Gretchen92@gmail.com",
+        "firstName": "Brandy",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99232119",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "performance_evaluation": [
+      {
+        "id": "cb95199d-c07d-461f-893a-1f844a6ddee2",
+        "name": "Quarterly Review",
+        "score": 51596,
+        "created_at": "2023-08-28T03:11:30.543Z",
+        "updated_at": "2023-08-28T16:23:13.402Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a3cfdcc-a94d-4381-8610-f7e0c8de0b33",
+        "name": "Annual Appraisal",
+        "score": 31102,
+        "created_at": "2023-08-27T20:22:31.030Z",
+        "updated_at": "2023-08-28T15:26:33.449Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d7fbaca-4589-4b54-8929-b94025d22e51",
+        "name": "Project Assessment",
+        "score": 15540,
+        "created_at": "2023-08-28T13:45:48.561Z",
+        "updated_at": "2023-08-27T20:08:52.907Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fc3b26d-555a-4033-9d1c-d45e2fdb10c6",
+        "name": "Team Evaluation",
+        "score": 35724,
+        "created_at": "2023-08-27T18:40:13.812Z",
+        "updated_at": "2023-08-28T10:21:51.612Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10f84d83-0601-4661-90fe-786525ed72f7",
+        "name": "Individual Performance",
+        "score": 68911,
+        "created_at": "2023-08-28T07:24:37.660Z",
+        "updated_at": "2023-08-28T05:36:51.728Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "210a3000-12e0-482b-ac27-f63673de81b6",
+        "name": "Starbucks",
+        "location": "New York",
+        "created_at": "2023-08-28T15:18:59.468Z",
+        "updated_at": "2023-08-28T04:20:43.257Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "557c7d38-3d4a-4a86-b69a-467c69819df1",
+        "name": "McDonald's",
+        "location": "Los Angeles",
+        "created_at": "2023-08-27T21:59:49.166Z",
+        "updated_at": "2023-08-27T20:18:24.346Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f1e4c2aa-b659-4e6f-ab50-cee958569b1b",
+        "name": "Subway",
+        "location": "Chicago",
+        "created_at": "2023-08-27T21:30:48.748Z",
+        "updated_at": "2023-08-27T19:26:20.515Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "55e4b812-79e7-472b-b900-1c41695f6551",
+        "name": "Burger King",
+        "location": "Houston",
+        "created_at": "2023-08-27T22:27:29.059Z",
+        "updated_at": "2023-08-28T03:36:31.711Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5ff4aba8-c941-41fc-85b9-677ceae2d295",
+        "name": "Pizza Hut",
+        "location": "Miami",
+        "created_at": "2023-08-27T21:00:16.016Z",
+        "updated_at": "2023-08-28T04:24:41.581Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "49c0d1cf-6002-41ed-a2d1-d5360ced2d3a",
+        "name": "Project Planning",
+        "description": "Create a detailed project plan",
+        "status": "Pending",
+        "created_at": "2023-08-28T04:35:36.741Z",
+        "updated_at": "2023-08-27T18:53:49.408Z",
+        "franchise_id": "5ff4aba8-c941-41fc-85b9-677ceae2d295"
+      },
+      {
+        "id": "2d817975-aa90-448a-ba54-a2166d18944f",
+        "name": "Task Management",
+        "description": "Assign tasks to team members",
+        "status": "In Progress",
+        "created_at": "2023-08-28T03:03:38.573Z",
+        "updated_at": "2023-08-27T19:59:21.730Z",
+        "franchise_id": "f1e4c2aa-b659-4e6f-ab50-cee958569b1b"
+      },
+      {
+        "id": "0b0e5f34-127a-4481-bfbf-374499bddd33",
+        "name": "Budget Analysis",
+        "description": "Analyze financial data",
+        "status": "Completed",
+        "created_at": "2023-08-28T01:14:08.692Z",
+        "updated_at": "2023-08-28T13:22:20.756Z",
+        "franchise_id": "210a3000-12e0-482b-ac27-f63673de81b6"
+      },
+      {
+        "id": "d9c2f517-640f-4b49-bcf2-ca91c07f669a",
+        "name": "Market Research",
+        "description": "Gather information about market trends",
+        "status": "On Hold",
+        "created_at": "2023-08-28T11:16:52.537Z",
+        "updated_at": "2023-08-28T14:51:19.660Z",
+        "franchise_id": "5ff4aba8-c941-41fc-85b9-677ceae2d295"
+      },
+      {
+        "id": "3447183a-968e-49ea-896a-2535e6d15ac1",
+        "name": "Product Development",
+        "description": "Develop new product prototypes",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T01:59:30.251Z",
+        "updated_at": "2023-08-28T09:59:41.717Z",
+        "franchise_id": "557c7d38-3d4a-4a86-b69a-467c69819df1"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "327b6401-e920-490e-a5f8-63b77bebd424",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-27T22:48:40.347Z",
+        "updated_at": "2023-08-28T06:35:14.544Z",
+        "franchise_id": "55e4b812-79e7-472b-b900-1c41695f6551"
+      },
+      {
+        "id": "d66b17ef-caeb-4aac-94ee-fd97243eddc7",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T09:34:42.361Z",
+        "updated_at": "2023-08-28T16:17:07.024Z",
+        "franchise_id": "557c7d38-3d4a-4a86-b69a-467c69819df1"
+      },
+      {
+        "id": "ed2786d5-c91d-40c8-8ba2-39d0645afaca",
+        "name": "Finance Dashboard",
+        "created_at": "2023-08-28T01:04:10.470Z",
+        "updated_at": "2023-08-28T09:37:28.666Z",
+        "franchise_id": "210a3000-12e0-482b-ac27-f63673de81b6"
+      },
+      {
+        "id": "a4b173f6-7138-45c2-a138-79fc6e2b800c",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-28T02:36:00.816Z",
+        "updated_at": "2023-08-28T00:20:17.547Z",
+        "franchise_id": "210a3000-12e0-482b-ac27-f63673de81b6"
+      },
+      {
+        "id": "70ef247a-768c-4dc1-aa2b-f5e1284374d7",
+        "name": "Operations Dashboard",
+        "created_at": "2023-08-27T23:08:32.498Z",
+        "updated_at": "2023-08-28T08:03:03.122Z",
+        "franchise_id": "210a3000-12e0-482b-ac27-f63673de81b6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5fd71448-266a-44ab-8f99-be05da45b29c",
+        "email": "Lela_Collier65@yahoo.com",
+        "firstName": "Conor",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46936186",
+        "tenantId": null
+      },
+      {
+        "reference": "ac7b00fd-5c8b-4a6c-a562-0ba67c9aae20",
+        "email": "Colt82@gmail.com",
+        "firstName": "Rey",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52788614",
+        "tenantId": null
+      },
+      {
+        "reference": "931b99df-80f3-447f-8fb1-1e31fbe826bc",
+        "email": "Kathlyn_Dibbert69@hotmail.com",
+        "firstName": "Liliana",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1040.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e9dacdac-7cd5-4067-9a2f-3a21d6b439f3",
+        "email": "Delia_Stark@gmail.com",
+        "firstName": "Natalie",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74654516",
+        "tenantId": null
+      },
+      {
+        "reference": "4e282ff7-5d90-4844-9a3d-dd429a4041c0",
+        "email": "Arturo66@gmail.com",
+        "firstName": "Okey",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97374369",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "performance_evaluation": [
+      {
+        "id": "2c4a19cd-6f74-43e9-87bb-d6729faa7703",
+        "name": "Quarterly Review",
+        "score": 63467,
+        "created_at": "2023-08-27T22:36:10.277Z",
+        "updated_at": "2023-08-28T00:39:30.059Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af4fb643-fb72-45af-95c8-9b189d7e6c6b",
+        "name": "Annual Appraisal",
+        "score": 45768,
+        "created_at": "2023-08-28T15:01:19.021Z",
+        "updated_at": "2023-08-27T17:32:06.047Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "752ade3e-8204-40f3-968d-1f0949c774a2",
+        "name": "Mid-Year Assessment",
+        "score": 11421,
+        "created_at": "2023-08-28T11:41:32.502Z",
+        "updated_at": "2023-08-28T14:44:20.444Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea61b473-3c06-439b-933d-aeda1208d71d",
+        "name": "Project Evaluation",
+        "score": 30734,
+        "created_at": "2023-08-27T19:15:26.243Z",
+        "updated_at": "2023-08-28T06:07:04.682Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8397e89-bc0f-475a-bca6-2d34dd9296f1",
+        "name": "Team Performance Review",
+        "score": 46487,
+        "created_at": "2023-08-28T05:18:41.833Z",
+        "updated_at": "2023-08-28T01:31:42.371Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "1ff89423-9e3d-400d-a7a3-5adcd4dd535f",
+        "name": "Sunshine Coffee",
+        "location": "New York",
+        "created_at": "2023-08-28T12:53:13.611Z",
+        "updated_at": "2023-08-28T05:57:20.020Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "17f9a0c1-f092-496e-a57c-a5de3da4c207",
+        "name": "Burger Heaven",
+        "location": "Los Angeles",
+        "created_at": "2023-08-28T04:07:43.410Z",
+        "updated_at": "2023-08-28T06:29:49.872Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cead5e84-4f55-4a3c-a2b8-30ec354af524",
+        "name": "Pizza Paradise",
+        "location": "Chicago",
+        "created_at": "2023-08-28T03:24:12.962Z",
+        "updated_at": "2023-08-28T04:08:36.301Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "abfbfe3c-89ca-45b5-a063-da35cbe87f40",
+        "name": "Taco Time",
+        "location": "Houston",
+        "created_at": "2023-08-28T16:33:27.789Z",
+        "updated_at": "2023-08-28T00:29:42.301Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dcf5155c-bc64-4aad-813b-498ffa0486e7",
+        "name": "Sushi Sensation",
+        "location": "Miami",
+        "created_at": "2023-08-28T04:34:21.124Z",
+        "updated_at": "2023-08-27T20:41:52.057Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "3d2e1593-ae13-43b4-b883-fcbbf4de88d9",
+        "name": "Project A",
+        "description": "Complete the project by the deadline",
+        "status": "Pending",
+        "created_at": "2023-08-28T08:33:28.848Z",
+        "updated_at": "2023-08-27T23:54:30.217Z",
+        "franchise_id": "1ff89423-9e3d-400d-a7a3-5adcd4dd535f"
+      },
+      {
+        "id": "724d9c62-0cdb-4a5c-8e95-8f9475671555",
+        "name": "Task B",
+        "description": "Prepare a report for the client",
+        "status": "In Progress",
+        "created_at": "2023-08-27T21:58:23.397Z",
+        "updated_at": "2023-08-27T17:48:21.592Z",
+        "franchise_id": "cead5e84-4f55-4a3c-a2b8-30ec354af524"
+      },
+      {
+        "id": "87b192e7-3e6c-47ad-af08-e0c7b6ad61c7",
+        "name": "Assignment C",
+        "description": "Coordinate with team members",
+        "status": "Completed",
+        "created_at": "2023-08-28T09:23:51.575Z",
+        "updated_at": "2023-08-28T10:45:30.021Z",
+        "franchise_id": "1ff89423-9e3d-400d-a7a3-5adcd4dd535f"
+      },
+      {
+        "id": "f90d3539-5dc1-4c56-9c8b-fd16a8f9da3a",
+        "name": "Job D",
+        "description": "Conduct research on market trends",
+        "status": "On Hold",
+        "created_at": "2023-08-28T13:50:42.707Z",
+        "updated_at": "2023-08-28T04:38:42.827Z",
+        "franchise_id": "cead5e84-4f55-4a3c-a2b8-30ec354af524"
+      },
+      {
+        "id": "51500c47-f90c-4355-b84d-7a22bcf84db9",
+        "name": "Activity E",
+        "description": "Implement new features",
+        "status": "Cancelled",
+        "created_at": "2023-08-27T20:40:57.483Z",
+        "updated_at": "2023-08-28T02:00:06.478Z",
+        "franchise_id": "cead5e84-4f55-4a3c-a2b8-30ec354af524"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "0dba6446-1ef2-464e-b1d9-8b5fb143f019",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T04:49:40.203Z",
+        "updated_at": "2023-08-27T19:19:09.191Z",
+        "franchise_id": "dcf5155c-bc64-4aad-813b-498ffa0486e7"
+      },
+      {
+        "id": "76d0cd5b-b252-4572-ab3b-865bd0b9959b",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-27T21:50:18.846Z",
+        "updated_at": "2023-08-28T09:33:28.672Z",
+        "franchise_id": "dcf5155c-bc64-4aad-813b-498ffa0486e7"
+      },
+      {
+        "id": "243d9c6f-b29f-47ac-8b97-5be2f9ec1606",
+        "name": "Finance Dashboard",
+        "created_at": "2023-08-28T17:00:48.010Z",
+        "updated_at": "2023-08-27T22:20:18.903Z",
+        "franchise_id": "17f9a0c1-f092-496e-a57c-a5de3da4c207"
+      },
+      {
+        "id": "6e6d4ba3-4afe-4632-ad8f-9aec6c001ab3",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-28T07:30:46.905Z",
+        "updated_at": "2023-08-28T09:51:13.157Z",
+        "franchise_id": "abfbfe3c-89ca-45b5-a063-da35cbe87f40"
+      },
+      {
+        "id": "1ec236ee-3092-45f6-a8da-82b7c59ad2e8",
+        "name": "Operations Dashboard",
+        "created_at": "2023-08-27T17:54:29.470Z",
+        "updated_at": "2023-08-27T22:50:58.258Z",
+        "franchise_id": "abfbfe3c-89ca-45b5-a063-da35cbe87f40"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fb0f5dc7-1c86-43a2-bf02-9587001a8513",
+        "email": "Kathleen.McKenzie56@yahoo.com",
+        "firstName": "Lessie",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17182928",
+        "tenantId": null
+      },
+      {
+        "reference": "8c3d449c-7e68-4562-bed7-efd03af72054",
+        "email": "Anjali.Steuber23@gmail.com",
+        "firstName": "Rod",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1023.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "50b90d6a-6596-463f-a0a3-f4e95cf8654e",
+        "email": "Rafael_Dach45@gmail.com",
+        "firstName": "Eldon",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/12.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f31c7315-18de-46ab-b45c-e574963ffe48",
+        "email": "Brenden39@gmail.com",
+        "firstName": "Russ",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/864.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bfb33e64-0ce2-440f-b8ff-d257006908e4",
+        "email": "Lyla.Dicki82@hotmail.com",
+        "firstName": "Melba",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "performance_evaluation": [
+      {
+        "id": "b2809d93-f792-4007-a7df-55ca6965340b",
+        "name": "Quarterly Review",
+        "score": 75980,
+        "created_at": "2023-08-28T04:58:54.710Z",
+        "updated_at": "2023-08-28T12:43:31.362Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bdc66a1-0d78-4e49-b12e-0714783042d8",
+        "name": "Annual Appraisal",
+        "score": 12553,
+        "created_at": "2023-08-28T15:28:18.831Z",
+        "updated_at": "2023-08-27T21:20:09.301Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f0ebbcf-d2be-4083-a1a0-27e4856514a8",
+        "name": "Mid-Year Evaluation",
+        "score": 84595,
+        "created_at": "2023-08-28T13:49:03.845Z",
+        "updated_at": "2023-08-28T15:37:29.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64894bee-4e82-419b-8a2f-c7dbfebf8d72",
+        "name": "Project Assessment",
+        "score": 92110,
+        "created_at": "2023-08-27T17:43:16.509Z",
+        "updated_at": "2023-08-28T07:11:33.246Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13dcd1c5-78d9-4e96-9814-e5724356e69d",
+        "name": "Performance Analysis",
+        "score": 2602,
+        "created_at": "2023-08-28T16:30:30.018Z",
+        "updated_at": "2023-08-28T05:39:16.398Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "3935877c-1b33-4bf4-a6b0-d502bfc3d1ef",
+        "name": "Pizza Paradise",
+        "location": "New York",
+        "created_at": "2023-08-27T19:48:23.583Z",
+        "updated_at": "2023-08-28T06:15:17.987Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6566b4b4-902d-4500-b5a3-5a0af6073ca0",
+        "name": "Burger Haven",
+        "location": "Los Angeles",
+        "created_at": "2023-08-28T13:40:09.170Z",
+        "updated_at": "2023-08-28T14:15:59.218Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "02ea4bef-8703-4823-8c48-26a2636e3463",
+        "name": "Taco Time",
+        "location": "Chicago",
+        "created_at": "2023-08-28T02:41:13.539Z",
+        "updated_at": "2023-08-28T08:52:00.855Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "757ec2ba-d228-4a47-ab93-316efea31b7b",
+        "name": "Sushi Sensation",
+        "location": "Miami",
+        "created_at": "2023-08-28T13:50:16.183Z",
+        "updated_at": "2023-08-28T14:02:13.074Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cba3740a-7d09-4b2b-98f0-551ecc6b0ec5",
+        "name": "Chicken Delight",
+        "location": "Seattle",
+        "created_at": "2023-08-28T08:13:06.923Z",
+        "updated_at": "2023-08-28T12:45:15.757Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "798657c0-2676-43af-bfbf-0a22b45a3966",
+        "name": "Project A",
+        "description": "Develop new website",
+        "status": "Pending",
+        "created_at": "2023-08-28T04:15:13.588Z",
+        "updated_at": "2023-08-27T17:17:06.362Z",
+        "franchise_id": "3935877c-1b33-4bf4-a6b0-d502bfc3d1ef"
+      },
+      {
+        "id": "6d49fa43-a973-4cbf-9890-1850bef16d49",
+        "name": "Task B",
+        "description": "Create marketing campaign",
+        "status": "In Progress",
+        "created_at": "2023-08-27T19:04:16.357Z",
+        "updated_at": "2023-08-28T11:11:11.762Z",
+        "franchise_id": "cba3740a-7d09-4b2b-98f0-551ecc6b0ec5"
+      },
+      {
+        "id": "6022e11a-14dc-4071-a61e-2ede0314c092",
+        "name": "Assignment C",
+        "description": "Research market trends",
+        "status": "Completed",
+        "created_at": "2023-08-28T05:37:18.029Z",
+        "updated_at": "2023-08-28T07:39:32.703Z",
+        "franchise_id": "6566b4b4-902d-4500-b5a3-5a0af6073ca0"
+      },
+      {
+        "id": "1233d4c1-3775-433e-9d83-8697facbc7ae",
+        "name": "Job D",
+        "description": "Prepare financial report",
+        "status": "On Hold",
+        "created_at": "2023-08-28T01:28:13.134Z",
+        "updated_at": "2023-08-28T13:56:17.911Z",
+        "franchise_id": "02ea4bef-8703-4823-8c48-26a2636e3463"
+      },
+      {
+        "id": "43f7e81b-0abe-46cd-8b0f-0bb3a46fb3fc",
+        "name": "Project E",
+        "description": "Implement software upgrade",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T14:01:34.524Z",
+        "updated_at": "2023-08-28T14:08:57.741Z",
+        "franchise_id": "cba3740a-7d09-4b2b-98f0-551ecc6b0ec5"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "7a4f9c69-2be3-49a8-ac17-93252bb51200",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T15:32:45.325Z",
+        "updated_at": "2023-08-28T08:38:51.785Z",
+        "franchise_id": "3935877c-1b33-4bf4-a6b0-d502bfc3d1ef"
+      },
+      {
+        "id": "98256798-2839-4fb6-8374-538b40dfc58e",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T15:19:43.323Z",
+        "updated_at": "2023-08-28T08:50:51.892Z",
+        "franchise_id": "6566b4b4-902d-4500-b5a3-5a0af6073ca0"
+      },
+      {
+        "id": "148fc3d3-08f7-416a-9550-a30a64657844",
+        "name": "Financial Dashboard",
+        "created_at": "2023-08-28T12:32:17.124Z",
+        "updated_at": "2023-08-28T10:00:13.895Z",
+        "franchise_id": "6566b4b4-902d-4500-b5a3-5a0af6073ca0"
+      },
+      {
+        "id": "fd60d04c-ade6-466d-84ea-6188477ae139",
+        "name": "Operations Dashboard",
+        "created_at": "2023-08-27T18:42:54.888Z",
+        "updated_at": "2023-08-28T10:25:10.163Z",
+        "franchise_id": "757ec2ba-d228-4a47-ab93-316efea31b7b"
+      },
+      {
+        "id": "942cfc29-b2f6-4c85-b587-29381db1d510",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-28T08:56:26.397Z",
+        "updated_at": "2023-08-28T01:37:43.773Z",
+        "franchise_id": "cba3740a-7d09-4b2b-98f0-551ecc6b0ec5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e3a6253d-35c9-4d61-884e-a03ea5d0cffb",
+        "email": "Parker93@gmail.com",
+        "firstName": "Baby",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2211249",
+        "tenantId": null
+      },
+      {
+        "reference": "46943910-0b7e-4665-b1c6-d70c9089a932",
+        "email": "Abner85@gmail.com",
+        "firstName": "Maci",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/15.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d3c84a71-edc8-4026-bd9f-cf8909191719",
+        "email": "Raphael.Hand23@hotmail.com",
+        "firstName": "Eusebio",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81801407",
+        "tenantId": null
+      },
+      {
+        "reference": "d7feb899-c2a8-44b0-9680-ba02e47ba1c9",
+        "email": "Rossie_Spinka13@hotmail.com",
+        "firstName": "Burdette",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21402831",
+        "tenantId": null
+      },
+      {
+        "reference": "db29629f-2813-413d-abf7-c74143ce9cba",
+        "email": "Irving.Kshlerin@hotmail.com",
+        "firstName": "Sigrid",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/127.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "performance_evaluation": [
+      {
+        "id": "327589fa-b768-4d26-8058-3aef602dc3c6",
+        "name": "Quarterly Review",
+        "score": 94585,
+        "created_at": "2023-08-28T11:32:36.006Z",
+        "updated_at": "2023-08-28T03:09:59.496Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef3b96e0-165d-4ea6-9d0d-b23cb97ce47d",
+        "name": "Annual Appraisal",
+        "score": 56312,
+        "created_at": "2023-08-28T04:58:37.320Z",
+        "updated_at": "2023-08-28T14:15:50.270Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "299c74e6-4fde-4d51-b552-90e3462b31e9",
+        "name": "Mid-Year Evaluation",
+        "score": 72743,
+        "created_at": "2023-08-28T09:23:52.274Z",
+        "updated_at": "2023-08-28T04:41:27.406Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69a89fbc-f0b8-4607-b215-8f0ad9e1ab77",
+        "name": "Project Assessment",
+        "score": 12786,
+        "created_at": "2023-08-28T09:35:49.091Z",
+        "updated_at": "2023-08-28T06:05:25.399Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e74c4e47-e2f9-4208-83ac-52d71544c458",
+        "name": "Performance Analysis",
+        "score": 73236,
+        "created_at": "2023-08-27T21:33:40.616Z",
+        "updated_at": "2023-08-28T14:12:03.195Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "d508419a-2cfc-4dfd-bcaa-e9a505700d7c",
+        "name": "Burger King",
+        "location": "New York",
+        "created_at": "2023-08-28T02:22:16.207Z",
+        "updated_at": "2023-08-28T07:51:44.991Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "902ea45c-c738-4dd7-b774-53ab135f059c",
+        "name": "Subway",
+        "location": "Los Angeles",
+        "created_at": "2023-08-27T18:47:55.404Z",
+        "updated_at": "2023-08-28T02:38:59.581Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7d3c0d8d-dea8-4696-829a-e233eb143eef",
+        "name": "McDonald's",
+        "location": "Chicago",
+        "created_at": "2023-08-28T12:52:06.584Z",
+        "updated_at": "2023-08-28T10:51:09.243Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5980359b-08a9-4988-928c-3f1665d9992c",
+        "name": "Pizza Hut",
+        "location": "Miami",
+        "created_at": "2023-08-28T11:27:08.912Z",
+        "updated_at": "2023-08-28T03:13:09.796Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9e8774eb-638f-43a1-b6f6-83f0c5141ea1",
+        "name": "Starbucks",
+        "location": "San Francisco",
+        "created_at": "2023-08-28T14:39:04.722Z",
+        "updated_at": "2023-08-27T23:11:38.407Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "5abbeea5-afd4-41cf-aa08-8d959ffcded6",
+        "name": "Project A",
+        "description": "Develop new website",
+        "status": "In Progress",
+        "created_at": "2023-08-28T16:16:44.833Z",
+        "updated_at": "2023-08-27T22:36:46.150Z",
+        "franchise_id": "9e8774eb-638f-43a1-b6f6-83f0c5141ea1"
+      },
+      {
+        "id": "61ca81df-417d-4c69-80f7-6396838fa30b",
+        "name": "Task B",
+        "description": "Prepare marketing campaign",
+        "status": "Completed",
+        "created_at": "2023-08-27T18:09:32.981Z",
+        "updated_at": "2023-08-27T18:55:19.459Z",
+        "franchise_id": "d508419a-2cfc-4dfd-bcaa-e9a505700d7c"
+      },
+      {
+        "id": "0fa468f9-c0db-4e40-ae0d-b953fbbc4441",
+        "name": "Assignment C",
+        "description": "Conduct market research",
+        "status": "Pending",
+        "created_at": "2023-08-28T15:02:19.658Z",
+        "updated_at": "2023-08-27T20:30:43.196Z",
+        "franchise_id": "9e8774eb-638f-43a1-b6f6-83f0c5141ea1"
+      },
+      {
+        "id": "01e36f74-e2a7-4425-8986-25aacf802ed8",
+        "name": "Project D",
+        "description": "Implement software solution",
+        "status": "On Hold",
+        "created_at": "2023-08-28T07:07:31.458Z",
+        "updated_at": "2023-08-28T10:30:38.162Z",
+        "franchise_id": "902ea45c-c738-4dd7-b774-53ab135f059c"
+      },
+      {
+        "id": "e249630d-51e8-41b2-9253-92ebdc8d3268",
+        "name": "Task E",
+        "description": "Design product prototype",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T07:40:02.395Z",
+        "updated_at": "2023-08-28T09:25:08.407Z",
+        "franchise_id": "9e8774eb-638f-43a1-b6f6-83f0c5141ea1"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "e52baead-bf87-4932-a14e-4b27c6f7023c",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-28T08:21:54.198Z",
+        "updated_at": "2023-08-28T01:16:15.051Z",
+        "franchise_id": "7d3c0d8d-dea8-4696-829a-e233eb143eef"
+      },
+      {
+        "id": "8323e812-5725-404e-a26e-183817fa0cb8",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-28T01:12:42.442Z",
+        "updated_at": "2023-08-28T09:59:36.496Z",
+        "franchise_id": "902ea45c-c738-4dd7-b774-53ab135f059c"
+      },
+      {
+        "id": "2a346142-d971-4cd9-a215-6addb775c9af",
+        "name": "Financial Dashboard",
+        "created_at": "2023-08-28T12:47:38.729Z",
+        "updated_at": "2023-08-28T05:59:52.096Z",
+        "franchise_id": "5980359b-08a9-4988-928c-3f1665d9992c"
+      },
+      {
+        "id": "8287d608-50c2-4c73-9fab-3c00315d7db7",
+        "name": "Operations Dashboard",
+        "created_at": "2023-08-28T13:01:57.229Z",
+        "updated_at": "2023-08-28T05:32:12.416Z",
+        "franchise_id": "7d3c0d8d-dea8-4696-829a-e233eb143eef"
+      },
+      {
+        "id": "bfa2b7f3-2001-4458-ad2d-0513d2294ada",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-28T06:47:09.619Z",
+        "updated_at": "2023-08-28T11:21:00.323Z",
+        "franchise_id": "d508419a-2cfc-4dfd-bcaa-e9a505700d7c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e18721bb-c71c-4752-9ef0-319625198c48",
+        "email": "Vito.Yost94@gmail.com",
+        "firstName": "Clara",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99458222",
+        "tenantId": null
+      },
+      {
+        "reference": "25c98e9f-ec18-431f-aafc-60d8b0031ffb",
+        "email": "Diana30@gmail.com",
+        "firstName": "Marlen",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38162103",
+        "tenantId": null
+      },
+      {
+        "reference": "dbd0059a-c04b-45b1-a6ca-ab75b008ffa6",
+        "email": "Arne.Wunsch69@gmail.com",
+        "firstName": "Janie",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/647.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e927a848-0b83-4c46-b22c-e5d031cbe298",
+        "email": "Elouise_Tremblay95@gmail.com",
+        "firstName": "Melba",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/874.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b239cdf5-c237-4b66-9fa9-95028d98fa64",
+        "email": "Selmer_Rippin@gmail.com",
+        "firstName": "Alta",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28880333",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "performance_evaluation": [
+      {
+        "id": "56dca674-87c5-4545-9318-ec3e886e765a",
+        "name": "Quarterly Review",
+        "score": 30152,
+        "created_at": "2023-08-28T04:08:26.104Z",
+        "updated_at": "2023-08-28T15:08:41.310Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91a186c4-e5cb-4ff9-87b9-b70788966c79",
+        "name": "Annual Assessment",
+        "score": 49028,
+        "created_at": "2023-08-27T17:07:29.973Z",
+        "updated_at": "2023-08-28T03:28:27.377Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6a145cf-8b3f-4c61-b155-3c3c7d5a11f6",
+        "name": "Project Evaluation",
+        "score": 41917,
+        "created_at": "2023-08-28T13:45:32.227Z",
+        "updated_at": "2023-08-27T20:39:23.167Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "997a9338-7b91-49c4-9cde-82aadc1a657e",
+        "name": "Team Performance",
+        "score": 51020,
+        "created_at": "2023-08-27T21:42:59.954Z",
+        "updated_at": "2023-08-28T12:32:37.955Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1519f5a-118e-4b31-ba9e-9b814fede509",
+        "name": "Individual Appraisal",
+        "score": 66903,
+        "created_at": "2023-08-27T19:12:58.598Z",
+        "updated_at": "2023-08-28T08:09:15.558Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "franchise": [
+      {
+        "id": "abcd0e4c-b393-4449-9d5e-92ef972eecd0",
+        "name": "Starbucks",
+        "location": "New York",
+        "created_at": "2023-08-28T01:20:51.772Z",
+        "updated_at": "2023-08-28T16:16:47.169Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4ff3c991-e217-4b8b-bc68-3e755ec94167",
+        "name": "McDonald's",
+        "location": "Los Angeles",
+        "created_at": "2023-08-28T00:54:44.668Z",
+        "updated_at": "2023-08-28T12:22:38.356Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b68d75f3-aa1c-47d5-afdb-b92956889ae6",
+        "name": "Subway",
+        "location": "Chicago",
+        "created_at": "2023-08-27T20:01:37.031Z",
+        "updated_at": "2023-08-27T20:07:09.774Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fea73e25-49e6-4a88-b674-999af928fa3d",
+        "name": "KFC",
+        "location": "Houston",
+        "created_at": "2023-08-28T09:02:32.866Z",
+        "updated_at": "2023-08-27T20:55:51.649Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "35b691b8-b2f9-4a75-9241-32951c1cedc1",
+        "name": "Burger King",
+        "location": "Miami",
+        "created_at": "2023-08-28T04:49:56.194Z",
+        "updated_at": "2023-08-28T16:30:45.171Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "task": [
+      {
+        "id": "d4831205-a0e3-4630-aa6d-bf1bf0d09fb2",
+        "name": "Project Planning",
+        "description": "Create a detailed project plan",
+        "status": "Pending",
+        "created_at": "2023-08-28T03:50:29.870Z",
+        "updated_at": "2023-08-28T04:21:30.618Z",
+        "franchise_id": "b68d75f3-aa1c-47d5-afdb-b92956889ae6"
+      },
+      {
+        "id": "e6327ff4-17f8-4aaf-b41d-a1301ff20402",
+        "name": "Task Management",
+        "description": "Manage tasks and deadlines",
+        "status": "In Progress",
+        "created_at": "2023-08-27T23:16:40.757Z",
+        "updated_at": "2023-08-27T19:48:53.401Z",
+        "franchise_id": "fea73e25-49e6-4a88-b674-999af928fa3d"
+      },
+      {
+        "id": "ba717a5a-32cd-4087-a5c5-64308b6c5001",
+        "name": "Meeting Preparation",
+        "description": "Prepare for upcoming meetings",
+        "status": "Completed",
+        "created_at": "2023-08-28T07:32:38.543Z",
+        "updated_at": "2023-08-27T22:52:35.682Z",
+        "franchise_id": "abcd0e4c-b393-4449-9d5e-92ef972eecd0"
+      },
+      {
+        "id": "26e4fe11-bdb0-4e1a-9d79-f24b9046dea3",
+        "name": "Report Generation",
+        "description": "Generate reports for analysis",
+        "status": "On Hold",
+        "created_at": "2023-08-28T06:26:03.177Z",
+        "updated_at": "2023-08-28T09:39:24.393Z",
+        "franchise_id": "fea73e25-49e6-4a88-b674-999af928fa3d"
+      },
+      {
+        "id": "60b6ced4-68ba-4812-9292-fbf1a4e3493e",
+        "name": "Data Analysis",
+        "description": "Analyze data for insights",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T04:38:44.378Z",
+        "updated_at": "2023-08-28T15:03:10.794Z",
+        "franchise_id": "35b691b8-b2f9-4a75-9241-32951c1cedc1"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "1d178282-5346-41b5-be33-04424a759868",
+        "name": "Sales Dashboard",
+        "created_at": "2023-08-27T19:34:42.616Z",
+        "updated_at": "2023-08-28T08:26:19.195Z",
+        "franchise_id": "35b691b8-b2f9-4a75-9241-32951c1cedc1"
+      },
+      {
+        "id": "bfa5eef2-a58c-4212-a6e4-cf57d8e1c000",
+        "name": "Marketing Dashboard",
+        "created_at": "2023-08-27T19:01:49.877Z",
+        "updated_at": "2023-08-28T00:00:52.092Z",
+        "franchise_id": "b68d75f3-aa1c-47d5-afdb-b92956889ae6"
+      },
+      {
+        "id": "0e6f5e89-b2ed-41c7-9df2-e59cbfb55399",
+        "name": "Financial Dashboard",
+        "created_at": "2023-08-27T21:02:59.263Z",
+        "updated_at": "2023-08-28T01:31:12.950Z",
+        "franchise_id": "4ff3c991-e217-4b8b-bc68-3e755ec94167"
+      },
+      {
+        "id": "8875d3cf-ba7a-4ab4-a851-107703966376",
+        "name": "HR Dashboard",
+        "created_at": "2023-08-28T00:57:15.133Z",
+        "updated_at": "2023-08-28T10:17:32.482Z",
+        "franchise_id": "fea73e25-49e6-4a88-b674-999af928fa3d"
+      },
+      {
+        "id": "8c1bc33c-56d2-48c2-ac26-29d38006ec51",
+        "name": "Operations Dashboard",
+        "created_at": "2023-08-28T08:02:30.962Z",
+        "updated_at": "2023-08-28T07:28:58.699Z",
+        "franchise_id": "abcd0e4c-b393-4449-9d5e-92ef972eecd0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7d7fba99-2e60-4b87-be3e-81a69594a086",
+        "email": "Shayne_Abshire0@yahoo.com",
+        "firstName": "Florencio",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88061609",
+        "tenantId": null
+      },
+      {
+        "reference": "d11b599e-6086-40df-88e3-e4255262b586",
+        "email": "Simone.Botsford@yahoo.com",
+        "firstName": "Ole",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82173717",
+        "tenantId": null
+      },
+      {
+        "reference": "ac6c16c2-e1cf-44ff-8663-a0bcf043372d",
+        "email": "Alford.Hirthe@hotmail.com",
+        "firstName": "Trevion",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/153.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f75aae49-d1cc-4614-a9e4-a8cdaa73ffaa",
+        "email": "Cyrus21@yahoo.com",
+        "firstName": "Justus",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/652.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b1c1559f-233c-46f4-92d4-e3943f792825",
+        "email": "Dana.Ondricka@gmail.com",
+        "firstName": "Nona",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/851.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
